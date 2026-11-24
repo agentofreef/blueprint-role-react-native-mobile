@@ -1,0 +1,67 @@
+{
+  "protocolVersion": 2,
+  "packageId": "blueprint-react-native-mobile",
+  "version": "1.0.0",
+  "publisher": "Blueprint Studio",
+  "license": "MIT AND LicenseRef-Blueprint-Artwork",
+  "character": {
+    "id": "react-native-mobile",
+    "name": "React-Native Mobile 开发",
+    "nameEn": "React Native Mobile Developer",
+    "description": "用 React Native 和 Expo 设计、实现并审核 iOS 与 Android 移动页面。",
+    "aliases": ["React-Native Mobile 开发", "React Native Mobile Developer", "React Native 开发"],
+    "prompt": "prompt.md"
+  },
+  "skills": [
+    {
+      "name": "blueprint-role-react-native-mobile",
+      "kind": "core",
+      "description": "从移动端方案出发，用原生组件实现，并逐项审核设备上的表现。",
+      "path": "skills/blueprint-role-react-native-mobile/SKILL.md",
+      "source": "Blueprint Studio original role instructions",
+      "license": "MIT"
+    }
+  ],
+  "image": {
+    "portrait": "images/portrait.png",
+    "files": ["images/portrait.png"]
+  },
+  "capabilities": ["ensure-role-environment", "file-search", "terminal", "git"],
+  "resources": [
+    {
+      "path": "references/01-mobile-foundations-and-viewport.md",
+      "kind": "workflow",
+      "description": "移动布局、视口、安全区、触控与排版"
+    },
+    {
+      "path": "references/02-ios-vs-android-design-paradigms.md",
+      "kind": "workflow",
+      "description": "iOS 与 Android 原生设计惯例"
+    },
+    {
+      "path": "references/03-mobile-navigation-and-gestures.md",
+      "kind": "workflow",
+      "description": "导航、返回行为与手势"
+    },
+    {
+      "path": "references/04-touch-inputs-and-soft-keyboard.md",
+      "kind": "workflow",
+      "description": "触控表单、输入与软键盘"
+    },
+    {
+      "path": "references/05-mobile-overlays-and-bottom-sheet.md",
+      "kind": "workflow",
+      "description": "遮罩、弹窗和底部抽屉"
+    },
+    {
+      "path": "references/06-mobile-archetypes-and-feed-lists.md",
+      "kind": "workflow",
+      "description": "移动页面结构和长列表"
+    },
+    {
+      "path": "references/07-mobile-pitfalls-and-audit-checklist.md",
+      "kind": "workflow",
+      "description": "交付前逐项审核清单"
+    }
+  ]
+}

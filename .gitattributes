@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.blueprint binary
+*.png binary
+blueprint/references/*.md -text !eol
