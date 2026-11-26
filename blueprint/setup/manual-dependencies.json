@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "impeccable",
+      "label": "Impeccable",
+      "kind": "skill",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "id": "bun",
+      "label": "Bun / bunx",
+      "kind": "tool",
+      "url": "https://bun.sh/docs/installation"
+    },
+    {
+      "id": "expo-sdk",
+      "label": "Expo SDK",
+      "kind": "tool",
+      "url": "https://docs.expo.dev/"
+    }
+  ]
+}

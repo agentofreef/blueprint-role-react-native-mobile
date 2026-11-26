@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "environment": [
+    {
+      "id": "node",
+      "label": "Node.js",
+      "kind": "runtime",
+      "required": false
+    },
+    {
+      "id": "npm",
+      "label": "npm",
+      "kind": "tool",
+      "required": false
+    }
+  ],
+  "skillRequirements": [
+    {
+      "name": "expo-overview",
+      "required": false,
+      "missingPrompt": "进入 Expo 任务前按项目 SDK 选择需要的 Expo Skills。",
+      "source": {
+        "kind": "github",
+        "repository": "expo/skills",
+        "commit": "c5e536273b6b4a7a3ad5dd9d74b6098c15138b21",
+        "path": "plugins/expo/skills/expo-overview/SKILL.md",
+        "sha256": "73944809f23ede32f6ba9ab17c9fa6c67846ba74a6cc5522f997da9b2debcb5c",
+        "group": "Expo Skills"
+      }
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "required": false,
+      "missingPrompt": "核对 React Native 的列表、导航和渲染性能。",
+      "source": {
+        "kind": "github",
+        "repository": "vercel-labs/agent-skills",
+        "commit": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
+        "path": "skills/react-native-skills/SKILL.md",
+        "sha256": "4012750a5ccbe064ca04af3835d5d1b011979d2d09d9b6df1c8128fac58e0a66"
+      }
+    }
+  ],
+  "installScript": "setup/install.json"
+}

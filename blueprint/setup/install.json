@@ -1,0 +1,8 @@
+{
+  "steps": [
+    "tool:node",
+    "tool:npm",
+    "skill:expo-overview",
+    "skill:vercel-react-native-skills"
+  ]
+}

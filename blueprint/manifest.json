@@ -1,7 +1,7 @@
 {
   "protocolVersion": 2,
   "packageId": "blueprint-react-native-mobile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Blueprint Studio",
   "license": "MIT AND LicenseRef-Blueprint-Artwork",
   "character": {
@@ -9,7 +9,11 @@
     "name": "React-Native Mobile 开发",
     "nameEn": "React Native Mobile Developer",
     "description": "用 React Native 和 Expo 设计、实现并审核 iOS 与 Android 移动页面。",
-    "aliases": ["React-Native Mobile 开发", "React Native Mobile Developer", "React Native 开发"],
+    "aliases": [
+      "React-Native Mobile 开发",
+      "React Native Mobile Developer",
+      "React Native 开发"
+    ],
     "prompt": "prompt.md"
   },
   "skills": [
@@ -24,9 +28,16 @@
   ],
   "image": {
     "portrait": "images/portrait.png",
-    "files": ["images/portrait.png"]
+    "files": [
+      "images/portrait.png"
+    ]
   },
-  "capabilities": ["ensure-role-environment", "file-search", "terminal", "git"],
+  "capabilities": [
+    "ensure-role-environment",
+    "file-search",
+    "terminal",
+    "git"
+  ],
   "resources": [
     {
       "path": "references/01-mobile-foundations-and-viewport.md",
@@ -62,6 +73,21 @@
       "path": "references/07-mobile-pitfalls-and-audit-checklist.md",
       "kind": "workflow",
       "description": "交付前逐项审核清单"
+    },
+    {
+      "path": "setup/manual-dependencies.json",
+      "kind": "environment",
+      "description": "需按上游流程准备的 Skill 和工具"
+    },
+    {
+      "path": "setup/requirements.json",
+      "kind": "environment",
+      "description": "角色托管的环境与 Skill 依赖"
+    },
+    {
+      "path": "setup/install.json",
+      "kind": "workflow",
+      "description": "托管依赖的后台安装顺序"
     }
   ]
 }
